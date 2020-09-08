@@ -1,6 +1,7 @@
 import unittest
 import random
-from searching import *
+from searching import * # pylint: disable=unused-wildcard-import, method-hidden
+ # pylint: enable=too-many-lines
 
 class RecursiveSortingTests(unittest.TestCase):
     def test_binary_search(self):
